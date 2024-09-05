@@ -29,7 +29,8 @@ public class TesteMain {
         } else {
             System.out.println("O número " + numero + " não pertence à sequência de Fibonacci.");
         }
-        sc.close();
+        
+        sc.nextLine();
 
         //Exercicio 2
         System.out.print("Informe uma string: ");
@@ -37,6 +38,9 @@ public class TesteMain {
 
         int count = test.countLestra(input);
         System.out.println("A letra 'a' aparece " + count + " vez(es) na string.");
+       
+        System.out.println("Rosolucao do caso 3");
+        test.SomaCalculo();
 
     }
     
